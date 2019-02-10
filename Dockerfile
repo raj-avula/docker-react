@@ -3,7 +3,7 @@
 
 #Block - 1 (Design phase)
 #Builds node apline, 
-FROM node:apline as builder
+FROM node:alpine as builder
 
 COPY ./package.json ./
 
